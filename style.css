@@ -1,0 +1,169 @@
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url(fonts/FontAwesome.otf) format('otf')
+        url(fonts/fontawesome-webfont.eot) format(eot);
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url(fonts/Roboto-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'RobotoMedium';
+  src: url(fonts/Roboto-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'RobotoLight';
+  src: url(fonts/Roboto-Regular.ttf) format('truetype');
+}
+body
+{
+  font-family: 'RobotoLight', Arial;
+}
+
+header
+{
+  height:150px;
+  font-family: 'RobotoMedium';
+  display: block;
+}
+
+h2
+{
+  font-family: 'Roboto-Bold', Arial;
+  text-align: center;
+  font-size: 35px;
+  margin:50px;
+}
+
+h3
+{
+  font-family:'Roboto-Bold';
+  font-size:35px;
+  text-transform: uppercase;
+}
+
+h4
+{
+  text-align: center;
+  font-weight: normal;
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+h5
+{
+  font-size: 20px;
+  margin:0px;
+}
+
+header nav
+{
+  float:right;
+}
+
+ul
+{
+        display: block;
+        float: left;
+        list-style: none;
+        justify-content: center;
+        text-decoration: none;
+}
+
+ul li
+{
+  margin: 20px;
+  display: block;
+  justify-content: center;
+  float: left;
+}
+span
+{
+  color: #5CADD3;
+}
+a
+{
+  text-decoration:none;
+  color:black;
+}
+
+#portfolio
+{
+  padding-top: 30px;
+  background-color: grey;
+}
+.logo
+{
+  float: left;
+  height: 100px;
+  width: 150px;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.services-list
+{
+  display: flex;
+  justify-content: center;
+}
+.our-services
+{
+  float: right;
+  width: 50%;
+}
+.services-image
+{
+  float: left;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+
+}
+.menu
+{
+  margin-right: 150px;
+  margin-top: 40px;
+}
+
+.input
+{
+  display:flex;
+  flex-direction: column;
+}
+
+.accueil
+{
+  background: url('images/bg1.jpg') center no-repeat;
+  background-size: cover;
+  height: 700px;
+  margin-bottom: 150px;
+}
+.slide
+{
+  padding-left: 200px;
+  padding-top: 200px;
+  color:white;
+}
+.filtre
+{
+  display:inline-block;
+  justify-content: center;
+  width: 100%;
+  background-color: red;
+}
+
+.button
+{
+  text-align: center;
+  border-radius: 3px;
+  color: white;
+  background-color: #5CADD3;
+  padding: 10px 10px;
+  width: 130px;
+}
+.button a
+{
+  color:white;
+}
