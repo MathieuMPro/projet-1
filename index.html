@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Projet 1</title>
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">  </head>
   <body>
     <header>
       <div class="logo"><img src="images/logo.png"></img>
@@ -28,27 +28,29 @@
     </section>
 
     <section id="services">
-      <h2> NOS SERVICES</h2>
-      <h4>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </h4>
-
+      <div class="serv1">
+        <h2> NOS SERVICES</h2>
+        <div class="separator"></div>
+        <h4>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </h4>
+      </div>
       <div class="services-list">
         <div class="services-image"><img src="images/main-feature.png"/></div>
         <ul class="our-services">
-        <li>
-          <i class="fa fa-line-chart"></i>
-          <h5>UX design</h5>
-          <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
-        </liv>
-        <li>
-          <i class="fa fa-table"></i>
-          <h5>UI design</h5>
-          <p>Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
-        </li>
-        <li>
-          <i class="fa fa-pie-chart"></i>
-          <h5>SEO</h5>
-          <p>Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
-        </li>
+          <li class="list-1">
+            <div class="display-list1"><i class="fa fa-line-chart"></i></div>
+            <div class="display-list2"><h5>UX design</h5>
+            <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p></div>
+          </liv>
+          <li class="list-1">
+              <div class="display-list1"><i class="fa fa-table"></i></div>
+              <div class="display-list2"><h5>UI design</h5>
+              <p>Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p></div>
+          </li>
+          <li class="list-1">
+            <div class="display-list1"><i class="fa fa-pie-chart"></i></div>
+            <div class="display-list2"><h5>SEO</h5>
+            <p>Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p></div>
+          </li>
 
       </ul>
       </div>
@@ -58,40 +60,42 @@
 
     <section id="portfolio">
       <h2> NOS PROJETS </h2>
+      <div class="separator"></div>
         <h4>Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
         </h4>
 
         <div class="filtre">
           <ul>
-            <li>All Works</li>
-            <li>Creative</li>
-            <li>Corporate</li>
-            <li>Portfolio</li>
+            <li><a href="work">Works</a></li>
+            <li><a href="creative">Creative</a></li>
+            <li><a href="corporate">Corporate</a></li>
+            <li><a href="portfolioli">Portfolio</a></li>
           </ul>
         </div>
         <div class="insta">
-          <div class="imgi"><img src="images/01.jpg" alt="01"/></div>
-          <div class="imgi"><img src="images/02.jpg" alt="02"/></div>
-          <div class="imgi"><img src="images/03.jpg" alt="03"/></div>
-          <div class="imgi"><img src="images/04.jpg" alt="04"/></div>
-          <div class="imgi"><img src="images/05.jpg" alt="05"/></div>
-          <div class="imgi"><img src="images/06.jpg" alt="06"/></div>
-          <div class="imgi"><img src="images/07.jpg" alt="07"/></div>
-          <div class="imgi"><img src="images/08.jpg" alt="08"/></div>
+          <div class="imgi"><img src="images/01.jpg" alt="01"/><div class="description"><img src="" alt="fullscreen"><h5>Portfolio Item</h5><p> Lorem Ipsum Dolor Sit</p> </div></div>
+          <div class="imgi"><img src="images/02.jpg" alt="02"/><div class="description"><img src="" alt="fullscreen"><h5>Portfolio Item</h5><p> Lorem Ipsum Dolor Sit</p> </div></div>
+          <div class="imgi"><img src="images/03.jpg" alt="03"/><div class="description"><img src="" alt="fullscreen"><h5>Portfolio Item</h5><p> Lorem Ipsum Dolor Sit</p> </div></div>
+          <div class="imgi"><img src="images/04.jpg" alt="04"/><div class="description"><img src="" alt="fullscreen"><h5>Portfolio Item</h5><p> Lorem Ipsum Dolor Sit</p> </div></div>
+          <div class="imgi"><img src="images/05.jpg" alt="05"/><div class="description"><img src="" alt="fullscreen"><h5>Portfolio Item</h5><p> Lorem Ipsum Dolor Sit</p> </div></div>
+          <div class="imgi"><img src="images/06.jpg" alt="06"/><div class="description"><img src="" alt="fullscreen"><h5>Portfolio Item</h5><p> Lorem Ipsum Dolor Sit</p> </div></div>
+          <div class="imgi"><img src="images/07.jpg" alt="07"/><div class="description"><img src="" alt="fullscreen"><h5>Portfolio Item</h5><p> Lorem Ipsum Dolor Sit</p> </div></div>
+          <div class="imgi"><img src="images/08.jpg" alt="08"/><div class="description"><img src="" alt="fullscreen"><h5>Portfolio Item</h5><p> Lorem Ipsum Dolor Sit</p> </div></div>
         </div>
     </section>
 
-    <!--<section id="contact">
-      <div>Nous contacter</div>
-      <p> Adresse </br> Rue adresse </br> ville </p>
-      <div class="input">
-        <input type="text" name="Name"/>
-        <input type="text" name="Email"/>
-        <input type="text" name="Subject"/>
-        <input type="text" name="Message"/>
+    <section id="contact">
+      <div class="tab-contact">
+        <h5>Nous contacter</h5>
+        <p> Adresse </br> Rue adresse </br> ville </p>
+        <div class="input">
+          <input type="text" name="Name" placeholder="Name"/>
+          <input type="text" name="Email" placeholder="Email"/>
+          <input type="text" name="Subject" placeholder="Sujet"/>
+          <textarea name="Message" placeholder="Commentaires"></textarea>
+        </div>
+        <p class="button"><a href="send"> Send Message</a></p>
       </div>
-      <p class="button"> Send Message</p>
-
-    </section> -->
+    </section>
   </body>
 </html>
